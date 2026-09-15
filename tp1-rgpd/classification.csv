@@ -1,0 +1,11 @@
+colonne;categorie;justification
+id;NP;Identifiant de ligne technique, sans portee hors du fichier.
+nom;DIR;Identifie seul la personne physique.
+prenom;DIR;Identifie seul, combine au nom.
+email;IND;Rattachable a une personne par recoupement (ici format nominatif).
+code_postal;IND;Seul il n'identifie pas ; croise avec nom + age il singularise.
+ip_connexion;IND;Reliable a l'abonne par le FAI (jurisprudence CJUE).
+id_cookie;IND;Trace la navigation et construit un profil.
+num_secu;SENS;Numero de securite sociale : identifiant unique a usage reglemente.
+carte_bancaire;DIR;Donnee bancaire directement rattachee au titulaire.
+commentaire_libre;SENS;Champ libre : contient de la sante, du syndical, du religieux.
