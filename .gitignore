@@ -1,0 +1,11 @@
+# Dossiers des outils
+.idea/
+.vscode/
+
+# Fichiers systeme Windows
+Thumbs.db
+desktop.ini
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp
