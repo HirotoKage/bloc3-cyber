@@ -34,7 +34,19 @@ eux que l'audit du TP5 doit mettre au jour.
 | `.gitignore` | Existe, mais **ne couvre pas `.env`** — autre défaut volontaire |
 | `scripts/approprier-le-depot.sh` | Transforme ce clone en *votre* dépôt `bloc3-cyber` |
 
-## Mise à niveau — à faire chez vous, avant la séance (~15 min)
+## Mise à niveau — à faire chez vous, avant la séance (~5 min)
+
+La manipulation est courte : tout le contenu vous est fourni, vous n'avez rien à
+rédiger. L'essentiel du temps part côté GitHub (créer le dépôt, pousser, ajouter
+l'enseignant), pas côté Git.
+
+Deux choses peuvent, elles, prendre beaucoup plus de temps — **vérifiez-les
+d'abord**, et ne vous y prenez pas la veille :
+
+- **Git doit être installé** sur votre machine. Sinon, reprenez l'installation du
+  TP0 avant de commencer.
+- **Vous devez avoir accès à votre compte GitHub.** Si vous l'avez perdu, il faut
+  en recréer un (inscription + validation de l'e-mail).
 
 ### 1. Créez le dépôt vide sur votre compte GitHub
 
@@ -61,6 +73,10 @@ Le script crée `Bureau/bloc3-sio1/bloc3-cyber` avec tout l'historique, y branch
 cd "$(cygpath -u "$USERPROFILE")/Desktop/bloc3-sio1/bloc3-cyber"
 git push -u origin main
 ```
+
+Au premier `push`, Git ouvre une **fenêtre de navigateur** pour vous connecter à
+GitHub : il n'y a ni clé ni jeton à créer (c'est le mécanisme du TP0). Vérifiez
+seulement que le navigateur est bien connecté avec **votre** compte.
 
 ### 4. Ajoutez l'enseignant en collaborateur
 
